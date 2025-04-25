@@ -16,7 +16,7 @@ public class PathAndQueryParameter {
 		given()
 		   .pathParam("mypath","users")  //path parameter
 		   .queryParam("page","2")  //query parameter1
-		   .queryParam("id","5")  //query parameter2
+		   .queryParam("id","4")  //query parameter2
 		.when()
 		    .get("https://reques.in/api/{mypath}?")
 		.then()
